@@ -1,19 +1,21 @@
-// GENERATED AUTOMATICALLY FROM 'Assets/Inputs/PlayerMovement.inputactions'
+// GENERATED AUTOMATICALLY FROM 'Assets/Inputs/PlayerInputs.inputactions'
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
 
 namespace Inputs
 {
-    public class PlayerMovement : IInputActionCollection
+    public class PlayerInputs : IInputActionCollection
     {
         private InputActionAsset asset;
-        public PlayerMovement()
+        public PlayerInputs()
         {
             asset = InputActionAsset.FromJson(@"{
-    ""name"": ""PlayerMovement"",
+    ""name"": ""PlayerInputs"",
     ""maps"": [
         {
             ""name"": ""Movement"",
@@ -23,7 +25,7 @@ namespace Inputs
                     ""name"": ""Horizontal"",
                     ""id"": ""e13ea0e4-8f70-44c0-af89-88f2231aa667"",
                     ""expectedControlLayout"": ""Axis"",
-                    ""continuous"": false,
+                    ""continuous"": true,
                     ""passThrough"": false,
                     ""initialStateCheck"": false,
                     ""processors"": """",
@@ -69,7 +71,7 @@ namespace Inputs
                 {
                     ""name"": ""negative"",
                     ""id"": ""f4b9d197-9678-45de-b69f-da780bc309e6"",
-                    ""path"": ""<Keyboard>/q"",
+                    ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -129,7 +131,7 @@ namespace Inputs
                 {
                     ""name"": """",
                     ""id"": ""9866196b-ffce-45fe-a6dc-8c04e2316e37"",
-                    ""path"": ""<Keyboard>/z"",
+                    ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -186,7 +188,7 @@ namespace Inputs
             m_Movement_Crouch = m_Movement.GetAction("Crouch");
         }
 
-        ~PlayerMovement()
+        ~PlayerInputs()
         {
             UnityEngine.Object.Destroy(asset);
         }
@@ -241,8 +243,8 @@ namespace Inputs
         private InputAction m_Movement_Crouch;
         public struct MovementActions
         {
-            private PlayerMovement m_Wrapper;
-            public MovementActions(PlayerMovement wrapper) { m_Wrapper = wrapper; }
+            private PlayerInputs m_Wrapper;
+            public MovementActions(PlayerInputs wrapper) { m_Wrapper = wrapper; }
             public InputAction @Horizontal { get { return m_Wrapper.m_Movement_Horizontal; } }
             public InputAction @Jump { get { return m_Wrapper.m_Movement_Jump; } }
             public InputAction @Crouch { get { return m_Wrapper.m_Movement_Crouch; } }
