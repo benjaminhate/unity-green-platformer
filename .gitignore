@@ -9,7 +9,7 @@ Assets/AssetStoreTools*
 .vs/
 
 # IntelliJ files
-.idea
+.idea/
 
 # Mac files
 .DS_Store
