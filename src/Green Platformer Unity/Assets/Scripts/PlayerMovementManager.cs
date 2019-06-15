@@ -4,8 +4,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovementManager : MonoBehaviour
 {
-    public InputActionAsset test2;
-    public PlayerMovement inputs;
+    public InputActionAsset inputs;
     [SerializeField] private CharacterController2D controller;
     [SerializeField] private float runSpeed = 40f;
     
@@ -15,43 +14,44 @@ public class PlayerMovementManager : MonoBehaviour
 
     private void OnEnable()
     {
-//        inputs.Enable();
-        test2.Enable();
+        inputs.Enable();
     }
 
     private void OnDisable()
     {
-//        inputs.Disable();
-        test2.Disable();
+        inputs.Disable();
     }
 
     private void Awake()
     {
-//        inputs.Movement.Horizontal.performed += OnHorizontal;
-//        inputs.Movement.Jump.performed += OnJump;
-//        inputs.Movement.Crouch.performed += OnCrouch;
-
-        test2["Horizontal"].performed += OnHorizontal;
-        test2["Jump"].performed += OnJump;
-        test2["Crouch"].performed += OnCrouch;
+        inputs["Horizontal"].performed += OnHorizontal;
+        inputs["Horizontal"].canceled += OnHorizontalCancel;
+        inputs["Jump"].started += OnJumpStart;
+        inputs["Crouch"].started += OnCrouchStart;
+        inputs["Crouch"].canceled += OnCrouchCancel;
     }
 
     private void OnHorizontal(InputAction.CallbackContext context)
     {
         m_HorizontalMove = context.ReadValue<float>() * runSpeed;
     }
-
-    private void OnJump(InputAction.CallbackContext context)
+    private void OnHorizontalCancel(InputAction.CallbackContext context)
     {
-        m_Jump = context.started;
+        m_HorizontalMove = 0f;
     }
 
-    private void OnCrouch(InputAction.CallbackContext context)
+    private void OnJumpStart(InputAction.CallbackContext context)
     {
-        if (context.started)
-            m_Crouch = true;
-        if (context.canceled)
-            m_Crouch = false;
+        m_Jump = true;
+    }
+
+    private void OnCrouchStart(InputAction.CallbackContext context)
+    {
+        m_Crouch = true;
+    }
+    private void OnCrouchCancel(InputAction.CallbackContext context)
+    {
+        m_Crouch = false;
     }
 
     private void FixedUpdate()
