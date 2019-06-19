@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: 49de9c31a45967b4e8f8955e8e8e76ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -306999803455086662
+    second: Grass_scorched_corner_join_right
+  - first:
+      213: -2635230182278313808
+    second: Grass_scorched_corner_join_left_right
+  - first:
+      213: -6915883658012136798
+    second: Grass_scorched_corner_join_left
+  - first:
+      213: -1918578357763888466
+    second: Grass_scorched_left_right
+  - first:
+      213: -7999180537236980415
+    second: Grass_corner_join_left_vertical_full_right
+  - first:
+      213: 4431658743625326550
+    second: Grass_right_left
+  - first:
+      213: -676078178562817807
+    second: Grass_vertical_scorched_half_left
+  - first:
+      213: -6295434583400767050
+    second: Grass_vertical_scorched_half_right
+  - first:
+      213: 2896525992147999055
+    second: Grass_vertical_full_left_right
+  - first:
+      213: -4219802824735177069
+    second: Grass_alone
+  - first:
+      213: -7389119212105536080
+    second: Grass_corner_join_right_vertical_full_left
+  - first:
+      213: -2341193556714694817
+    second: Grass_scorched_left_corner_join_right
+  - first:
+      213: -2486828141388493195
+    second: Grass_corner_join_right_corner_scorched_left
+  - first:
+      213: 2037805814587838505
+    second: Grass_scorched_right_corner_join_left
+  - first:
+      213: -8918434862805054866
+    second: Grass_corner_left_scorched_bottom
+  - first:
+      213: -7585579266050519080
+    second: Grass_corner_join_left_scorched_join_right
+  - first:
+      213: 2856268668112367290
+    second: Grass_scorched_bottom_left_right
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 535
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grass_scorched_corner_join_right
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1605
+        width: 535
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00c0e48b003d1d45902cf60ae2e6692
+      internalID: -306999803455086662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_scorched_corner_join_left_right
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1605
+        width: 535
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffcb921bf58601429445520640bf616
+      internalID: -2635230182278313808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_scorched_corner_join_left
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1605
+        width: 535
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298b66c1e5a3ef84aa53e7d88104aec0
+      internalID: -6915883658012136798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_scorched_left_right
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1605
+        width: 535
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8dafdc8e6e27649a75f805561160de
+      internalID: -1918578357763888466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_corner_join_left_vertical_full_right
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1605
+        width: 535
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f908b5c11c4091441b498c41f5ba1417
+      internalID: -7999180537236980415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_right_left
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1070
+        width: 535
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405f1359b52db8545ac9e6f37ea12dee
+      internalID: 4431658743625326550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_vertical_scorched_half_left
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1070
+        width: 535
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dc110769c1add4f984345e0889e830
+      internalID: -676078178562817807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_vertical_scorched_half_right
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1070
+        width: 535
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adef5b0002dc474091157958a5f6578
+      internalID: -6295434583400767050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_vertical_full_left_right
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1070
+        width: 535
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59527b80b607a3a47a151dd802bfd91d
+      internalID: 2896525992147999055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_alone
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1070
+        width: 535
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754683a0590ecb84f968e988756f870c
+      internalID: -4219802824735177069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_corner_join_right_vertical_full_left
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 535
+        width: 535
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718110974e24d854eb74f35280644362
+      internalID: -7389119212105536080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_scorched_left_corner_join_right
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 535
+        width: 535
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2999ad2eaff1d418cb5d442a78c6d4
+      internalID: -2341193556714694817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_corner_join_right_corner_scorched_left
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 535
+        width: 535
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59a0d1c428d6184fb9e82f80058f2cf
+      internalID: -2486828141388493195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_scorched_right_corner_join_left
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 535
+        width: 535
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343d3682b89d9bd42aba262bfce95cfa
+      internalID: 2037805814587838505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_corner_left_scorched_bottom
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 535
+        width: 535
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed664b365ce975a41b967ac902f68dd8
+      internalID: -8918434862805054866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_corner_join_left_scorched_join_right
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 535
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e727fcbf6ad2f4e8685f92b35c60df
+      internalID: -7585579266050519080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_scorched_bottom_left_right
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 0
+        width: 535
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d62af45a65777349bb0c5f21ff26b97
+      internalID: 2856268668112367290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 454f4b35a78ce844a82af69e45f975c6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
