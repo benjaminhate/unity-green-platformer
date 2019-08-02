@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovementManager : MonoBehaviour
 {
-    public InputActionAsset inputs;
+    public PlayerInputs inputs;
     [SerializeField] private CharacterController2D controller;
     [SerializeField] private float runSpeed = 40f;
     
@@ -24,11 +24,12 @@ public class PlayerMovementManager : MonoBehaviour
 
     private void Awake()
     {
-        inputs["Horizontal"].performed += OnHorizontal;
-        inputs["Horizontal"].canceled += OnHorizontalCancel;
-        inputs["Jump"].started += OnJumpStart;
-        inputs["Crouch"].started += OnCrouchStart;
-        inputs["Crouch"].canceled += OnCrouchCancel;
+        inputs = new PlayerInputs();
+        inputs.Movement.Horizontal.performed += OnHorizontal;
+        inputs.Movement.Horizontal.canceled += OnHorizontalCancel;
+        inputs.Movement.Jump.started += OnJumpStart;
+        inputs.Movement.Crouch.started += OnCrouchStart;
+        inputs.Movement.Crouch.canceled += OnCrouchCancel;
     }
 
     private void OnHorizontal(InputAction.CallbackContext context)
