@@ -26,7 +26,6 @@ public class PlayerMovementManager : MonoBehaviour
     {
         inputs = new PlayerInputs();
         inputs.Movement.Horizontal.performed += OnHorizontal;
-        inputs.Movement.Horizontal.canceled += OnHorizontalCancel;
         inputs.Movement.Jump.started += OnJumpStart;
         inputs.Movement.Crouch.started += OnCrouchStart;
         inputs.Movement.Crouch.canceled += OnCrouchCancel;
@@ -35,10 +34,6 @@ public class PlayerMovementManager : MonoBehaviour
     private void OnHorizontal(InputAction.CallbackContext context)
     {
         m_HorizontalMove = context.ReadValue<float>() * runSpeed;
-    }
-    private void OnHorizontalCancel(InputAction.CallbackContext context)
-    {
-        m_HorizontalMove = 0f;
     }
 
     private void OnJumpStart(InputAction.CallbackContext context)
@@ -58,6 +53,8 @@ public class PlayerMovementManager : MonoBehaviour
     private void FixedUpdate()
     {
         controller.Move(m_HorizontalMove * Time.fixedDeltaTime, m_Crouch, m_Jump);
+        if (inputs.Movement.Horizontal.phase != InputActionPhase.Performed)
+            m_HorizontalMove = 0f;
         m_Jump = false;
     }
 }

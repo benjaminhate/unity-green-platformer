@@ -7,36 +7,27 @@
             "actions": [
                 {
                     "name": "Horizontal",
+                    "type": "Value",
                     "id": "e13ea0e4-8f70-44c0-af89-88f2231aa667",
-                    "expectedControlLayout": "Axis",
-                    "continuous": true,
-                    "passThrough": false,
-                    "initialStateCheck": false,
+                    "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": "",
-                    "bindings": []
+                    "interactions": ""
                 },
                 {
                     "name": "Jump",
+                    "type": "Button",
                     "id": "6243cf36-a89d-4295-a436-5c9c329c3fc3",
-                    "expectedControlLayout": "",
-                    "continuous": false,
-                    "passThrough": false,
-                    "initialStateCheck": false,
+                    "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "",
-                    "bindings": []
+                    "interactions": ""
                 },
                 {
                     "name": "Crouch",
+                    "type": "Button",
                     "id": "118473c0-d8d1-4690-a5aa-610a0f3a9a75",
-                    "expectedControlLayout": "",
-                    "continuous": false,
-                    "passThrough": false,
-                    "initialStateCheck": false,
+                    "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "",
-                    "bindings": []
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -49,8 +40,7 @@
                     "groups": "",
                     "action": "Horizontal",
                     "isComposite": true,
-                    "isPartOfComposite": false,
-                    "modifiers": ""
+                    "isPartOfComposite": false
                 },
                 {
                     "name": "negative",
@@ -61,8 +51,7 @@
                     "groups": "",
                     "action": "Horizontal",
                     "isComposite": false,
-                    "isPartOfComposite": true,
-                    "modifiers": ""
+                    "isPartOfComposite": true
                 },
                 {
                     "name": "positive",
@@ -73,8 +62,7 @@
                     "groups": "",
                     "action": "Horizontal",
                     "isComposite": false,
-                    "isPartOfComposite": true,
-                    "modifiers": ""
+                    "isPartOfComposite": true
                 },
                 {
                     "name": "Arrows",
@@ -85,8 +73,7 @@
                     "groups": "",
                     "action": "Horizontal",
                     "isComposite": true,
-                    "isPartOfComposite": false,
-                    "modifiers": ""
+                    "isPartOfComposite": false
                 },
                 {
                     "name": "negative",
@@ -97,8 +84,7 @@
                     "groups": "",
                     "action": "Horizontal",
                     "isComposite": false,
-                    "isPartOfComposite": true,
-                    "modifiers": ""
+                    "isPartOfComposite": true
                 },
                 {
                     "name": "positive",
@@ -109,8 +95,7 @@
                     "groups": "",
                     "action": "Horizontal",
                     "isComposite": false,
-                    "isPartOfComposite": true,
-                    "modifiers": ""
+                    "isPartOfComposite": true
                 },
                 {
                     "name": "",
@@ -121,8 +106,7 @@
                     "groups": "",
                     "action": "Jump",
                     "isComposite": false,
-                    "isPartOfComposite": false,
-                    "modifiers": ""
+                    "isPartOfComposite": false
                 },
                 {
                     "name": "",
@@ -133,8 +117,7 @@
                     "groups": "",
                     "action": "Jump",
                     "isComposite": false,
-                    "isPartOfComposite": false,
-                    "modifiers": ""
+                    "isPartOfComposite": false
                 },
                 {
                     "name": "",
@@ -145,8 +128,7 @@
                     "groups": "",
                     "action": "Crouch",
                     "isComposite": false,
-                    "isPartOfComposite": false,
-                    "modifiers": ""
+                    "isPartOfComposite": false
                 },
                 {
                     "name": "",
@@ -157,8 +139,7 @@
                     "groups": "",
                     "action": "Crouch",
                     "isComposite": false,
-                    "isPartOfComposite": false,
-                    "modifiers": ""
+                    "isPartOfComposite": false
                 }
             ]
         }

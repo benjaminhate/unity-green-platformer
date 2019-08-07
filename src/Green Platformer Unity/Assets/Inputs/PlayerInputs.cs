@@ -1,9 +1,7 @@
 // GENERATED AUTOMATICALLY FROM 'Assets/Inputs/PlayerInputs.inputactions'
 
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
 
@@ -23,36 +21,27 @@ namespace Inputs
             ""actions"": [
                 {
                     ""name"": ""Horizontal"",
+                    ""type"": ""Value"",
                     ""id"": ""e13ea0e4-8f70-44c0-af89-88f2231aa667"",
-                    ""expectedControlLayout"": ""Axis"",
-                    ""continuous"": true,
-                    ""passThrough"": false,
-                    ""initialStateCheck"": false,
+                    ""expectedControlType"": ""Axis"",
                     ""processors"": """",
-                    ""interactions"": """",
-                    ""bindings"": []
+                    ""interactions"": """"
                 },
                 {
                     ""name"": ""Jump"",
+                    ""type"": ""Button"",
                     ""id"": ""6243cf36-a89d-4295-a436-5c9c329c3fc3"",
-                    ""expectedControlLayout"": """",
-                    ""continuous"": false,
-                    ""passThrough"": false,
-                    ""initialStateCheck"": false,
+                    ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """",
-                    ""bindings"": []
+                    ""interactions"": """"
                 },
                 {
                     ""name"": ""Crouch"",
+                    ""type"": ""Button"",
                     ""id"": ""118473c0-d8d1-4690-a5aa-610a0f3a9a75"",
-                    ""expectedControlLayout"": """",
-                    ""continuous"": false,
-                    ""passThrough"": false,
-                    ""initialStateCheck"": false,
+                    ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """",
-                    ""bindings"": []
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -65,8 +54,7 @@ namespace Inputs
                     ""groups"": """",
                     ""action"": ""Horizontal"",
                     ""isComposite"": true,
-                    ""isPartOfComposite"": false,
-                    ""modifiers"": """"
+                    ""isPartOfComposite"": false
                 },
                 {
                     ""name"": ""negative"",
@@ -77,8 +65,7 @@ namespace Inputs
                     ""groups"": """",
                     ""action"": ""Horizontal"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": true,
-                    ""modifiers"": """"
+                    ""isPartOfComposite"": true
                 },
                 {
                     ""name"": ""positive"",
@@ -89,8 +76,7 @@ namespace Inputs
                     ""groups"": """",
                     ""action"": ""Horizontal"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": true,
-                    ""modifiers"": """"
+                    ""isPartOfComposite"": true
                 },
                 {
                     ""name"": ""Arrows"",
@@ -101,8 +87,7 @@ namespace Inputs
                     ""groups"": """",
                     ""action"": ""Horizontal"",
                     ""isComposite"": true,
-                    ""isPartOfComposite"": false,
-                    ""modifiers"": """"
+                    ""isPartOfComposite"": false
                 },
                 {
                     ""name"": ""negative"",
@@ -113,8 +98,7 @@ namespace Inputs
                     ""groups"": """",
                     ""action"": ""Horizontal"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": true,
-                    ""modifiers"": """"
+                    ""isPartOfComposite"": true
                 },
                 {
                     ""name"": ""positive"",
@@ -125,8 +109,7 @@ namespace Inputs
                     ""groups"": """",
                     ""action"": ""Horizontal"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": true,
-                    ""modifiers"": """"
+                    ""isPartOfComposite"": true
                 },
                 {
                     ""name"": """",
@@ -137,8 +120,7 @@ namespace Inputs
                     ""groups"": """",
                     ""action"": ""Jump"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": false,
-                    ""modifiers"": """"
+                    ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
@@ -149,8 +131,7 @@ namespace Inputs
                     ""groups"": """",
                     ""action"": ""Jump"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": false,
-                    ""modifiers"": """"
+                    ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
@@ -161,8 +142,7 @@ namespace Inputs
                     ""groups"": """",
                     ""action"": ""Crouch"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": false,
-                    ""modifiers"": """"
+                    ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
@@ -173,8 +153,7 @@ namespace Inputs
                     ""groups"": """",
                     ""action"": ""Crouch"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": false,
-                    ""modifiers"": """"
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -205,10 +184,7 @@ namespace Inputs
             set => asset.devices = value;
         }
 
-        public ReadOnlyArray<InputControlScheme> controlSchemes
-        {
-            get => asset.controlSchemes;
-        }
+        public ReadOnlyArray<InputControlScheme> controlSchemes => asset.controlSchemes;
 
         public bool Contains(InputAction action)
         {
@@ -236,23 +212,22 @@ namespace Inputs
         }
 
         // Movement
-        private InputActionMap m_Movement;
+        private readonly InputActionMap m_Movement;
         private IMovementActions m_MovementActionsCallbackInterface;
-        private InputAction m_Movement_Horizontal;
-        private InputAction m_Movement_Jump;
-        private InputAction m_Movement_Crouch;
+        private readonly InputAction m_Movement_Horizontal;
+        private readonly InputAction m_Movement_Jump;
+        private readonly InputAction m_Movement_Crouch;
         public struct MovementActions
         {
             private PlayerInputs m_Wrapper;
             public MovementActions(PlayerInputs wrapper) { m_Wrapper = wrapper; }
-            public InputAction @Horizontal { get { return m_Wrapper.m_Movement_Horizontal; } }
-            public InputAction @Jump { get { return m_Wrapper.m_Movement_Jump; } }
-            public InputAction @Crouch { get { return m_Wrapper.m_Movement_Crouch; } }
+            public InputAction @Horizontal => m_Wrapper.m_Movement_Horizontal;
+            public InputAction @Jump => m_Wrapper.m_Movement_Jump;
+            public InputAction @Crouch => m_Wrapper.m_Movement_Crouch;
             public InputActionMap Get() { return m_Wrapper.m_Movement; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
-            public bool enabled { get { return Get().enabled; } }
-            public InputActionMap Clone() { return Get().Clone(); }
+            public bool enabled => Get().enabled;
             public static implicit operator InputActionMap(MovementActions set) { return set.Get(); }
             public void SetCallbacks(IMovementActions instance)
             {
@@ -283,13 +258,7 @@ namespace Inputs
                 }
             }
         }
-        public MovementActions @Movement
-        {
-            get
-            {
-                return new MovementActions(this);
-            }
-        }
+        public MovementActions @Movement => new MovementActions(this);
         public interface IMovementActions
         {
             void OnHorizontal(InputAction.CallbackContext context);
