@@ -53,8 +53,6 @@ public class PlayerMovementManager : MonoBehaviour
     private void FixedUpdate()
     {
         controller.Move(m_HorizontalMove * Time.fixedDeltaTime, m_Crouch, m_Jump);
-        if (inputs.Movement.Horizontal.phase != InputActionPhase.Performed)
-            m_HorizontalMove = 0f;
         m_Jump = false;
     }
 }

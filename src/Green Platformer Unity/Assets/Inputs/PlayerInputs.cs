@@ -21,9 +21,9 @@ namespace Inputs
             ""actions"": [
                 {
                     ""name"": ""Horizontal"",
-                    ""type"": ""Value"",
+                    ""type"": ""PassThrough"",
                     ""id"": ""e13ea0e4-8f70-44c0-af89-88f2231aa667"",
-                    ""expectedControlType"": ""Axis"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
                 },
