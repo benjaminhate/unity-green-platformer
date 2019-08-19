@@ -1,0 +1,103 @@
+fileFormatVersion: 2
+guid: 682beb999f7b8a74ea194b05d6b70dde
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 535
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: '{"fileNaming":"CreateGroupFolders","groupMode":"FullPath","PackingTag":null,"TargetDirectory":null,"AutoImport":false,"DefaultAlignment":"Center","DefaultPivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","DocAlignment":"Center","DocPivot":{"x":0.5,"y":0.5},"DocRoot":{"name":"DOCUMENT_ROOT","path":null,"indexId":[-1],"import":false,"useDefaults":false,"Alignment":"Center","Pivot":{"x":0.0,"y":0.0},"ScaleFactor":"Full","Childs":[{"name":"Dirt","path":"Dirt","indexId":[0],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[{"name":"ScorchedJoin","path":"Dirt/ScorchedJoin","indexId":[0,0],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[{"name":"Dirt_ScorchedJoinBoth","path":"Dirt/ScorchedJoin/Dirt_ScorchedJoinBoth","indexId":[0,0,0],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Dirt_ScorchedJoinLeft","path":"Dirt/ScorchedJoin/Dirt_ScorchedJoinLeft","indexId":[0,0,1],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Dirt_ScorchedJoinRight","path":"Dirt/ScorchedJoin/Dirt_ScorchedJoinRight","indexId":[0,0,2],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Dirt_ScorchedLeftGrass_ScorchedJoinRight","path":"Dirt/ScorchedJoin/Dirt_ScorchedLeftGrass_ScorchedJoinRight","indexId":[0,0,3],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Dirt_ScorchedRightGrass_ScorchedJoinLeft","path":"Dirt/ScorchedJoin/Dirt_ScorchedRightGrass_ScorchedJoinLeft","indexId":[0,0,4],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]}]},{"name":"Scorched","path":"Dirt/Scorched","indexId":[0,1],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[{"name":"Dirt_ScorchedBoth","path":"Dirt/Scorched/Dirt_ScorchedBoth","indexId":[0,1,0],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Dirt_ScorchedBothBottom","path":"Dirt/Scorched/Dirt_ScorchedBothBottom","indexId":[0,1,1],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Dirt_ScorchedBothGrass","path":"Dirt/Scorched/Dirt_ScorchedBothGrass","indexId":[0,1,2],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Dirt_ScorchedBottom","path":"Dirt/Scorched/Dirt_ScorchedBottom","indexId":[0,1,3],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Dirt_ScorchedCornerLeft","path":"Dirt/Scorched/Dirt_ScorchedCornerLeft","indexId":[0,1,4],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Dirt_ScorchedCornerRight","path":"Dirt/Scorched/Dirt_ScorchedCornerRight","indexId":[0,1,5],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Dirt_ScorchedGrassBoth","path":"Dirt/Scorched/Dirt_ScorchedGrassBoth","indexId":[0,1,6],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Dirt_ScorchedLeft","path":"Dirt/Scorched/Dirt_ScorchedLeft","indexId":[0,1,7],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Dirt_ScorchedRight","path":"Dirt/Scorched/Dirt_ScorchedRight","indexId":[0,1,8],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Dirt_ScorchedRightGrass_ScorchedLeft","path":"Dirt/Scorched/Dirt_ScorchedRightGrass_ScorchedLeft","indexId":[0,1,9],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]}]},{"name":"DirtFull","path":"Dirt/DirtFull","indexId":[0,2],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[{"name":"DirtStone_Full","path":"Dirt/DirtFull/DirtStone_Full","indexId":[0,2,0],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Dirt_Full2","path":"Dirt/DirtFull/Dirt_Full2","indexId":[0,2,1],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Dirt_Full1","path":"Dirt/DirtFull/Dirt_Full1","indexId":[0,2,2],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]}]}]},{"name":"GrassCorners","path":"GrassCorners","indexId":[1],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[{"name":"CornersLeft","path":"GrassCorners/CornersLeft","indexId":[1,0],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[{"name":"Grass_BorderLeft","path":"GrassCorners/CornersLeft/Grass_BorderLeft","indexId":[1,0,0],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Grass_BorderLeft_ScorchedJoinRight","path":"GrassCorners/CornersLeft/Grass_BorderLeft_ScorchedJoinRight","indexId":[1,0,1],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Grass_BorderScorchedLeft","path":"GrassCorners/CornersLeft/Grass_BorderScorchedLeft","indexId":[1,0,2],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Grass_BorderScorchedLeft_ScorchedJoinRight","path":"GrassCorners/CornersLeft/Grass_BorderScorchedLeft_ScorchedJoinRight","indexId":[1,0,3],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Grass_BorderScorchedLeftBottom","path":"GrassCorners/CornersLeft/Grass_BorderScorchedLeftBottom","indexId":[1,0,4],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]}]},{"name":"CornersRight","path":"GrassCorners/CornersRight","indexId":[1,1],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[{"name":"Grass_BorderRight","path":"GrassCorners/CornersRight/Grass_BorderRight","indexId":[1,1,0],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Grass_BorderRight_ScorchedJoinLeft","path":"GrassCorners/CornersRight/Grass_BorderRight_ScorchedJoinLeft","indexId":[1,1,1],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Grass_BorderScorchedRight","path":"GrassCorners/CornersRight/Grass_BorderScorchedRight","indexId":[1,1,2],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Grass_BorderScorchedRight_ScorchedJoinLeft","path":"GrassCorners/CornersRight/Grass_BorderScorchedRight_ScorchedJoinLeft","indexId":[1,1,3],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Grass_BorderScorchedRightBottom","path":"GrassCorners/CornersRight/Grass_BorderScorchedRightBottom","indexId":[1,1,4],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]}]},{"name":"CornersMixed","path":"GrassCorners/CornersMixed","indexId":[1,2],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[{"name":"Grass_BorderMixed_ScorchedLeft","path":"GrassCorners/CornersMixed/Grass_BorderMixed_ScorchedLeft","indexId":[1,2,0],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Grass_BorderMixed_ScorchedRight","path":"GrassCorners/CornersMixed/Grass_BorderMixed_ScorchedRight","indexId":[1,2,1],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Grass_CornersMixed","path":"GrassCorners/CornersMixed/Grass_CornersMixed","indexId":[1,2,2],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Grass_CornersMixed_ScorchedBoth","path":"GrassCorners/CornersMixed/Grass_CornersMixed_ScorchedBoth","indexId":[1,2,3],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"Grass_CornersMixed_ScorchedBothBottom","path":"GrassCorners/CornersMixed/Grass_CornersMixed_ScorchedBothBottom","indexId":[1,2,4],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]}]}]},{"name":"GrassJoin","path":"GrassJoin","indexId":[2],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[{"name":"JoinBoth","path":"GrassJoin/JoinBoth","indexId":[2,0],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[{"name":"GrassJoin_Both","path":"GrassJoin/JoinBoth/GrassJoin_Both","indexId":[2,0,0],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Both_ScorchedBottom","path":"GrassJoin/JoinBoth/GrassJoin_Both_ScorchedBottom","indexId":[2,0,1],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Both_ScorchedJoinBoth","path":"GrassJoin/JoinBoth/GrassJoin_Both_ScorchedJoinBoth","indexId":[2,0,2],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Both_ScorchedJoinLeft","path":"GrassJoin/JoinBoth/GrassJoin_Both_ScorchedJoinLeft","indexId":[2,0,3],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Both_ScorchedJoinRight","path":"GrassJoin/JoinBoth/GrassJoin_Both_ScorchedJoinRight","indexId":[2,0,4],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]}]},{"name":"JoinLeft","path":"GrassJoin/JoinLeft","indexId":[2,1],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[{"name":"GrassJoin_Left","path":"GrassJoin/JoinLeft/GrassJoin_Left","indexId":[2,1,0],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Left_ScorchedBottom","path":"GrassJoin/JoinLeft/GrassJoin_Left_ScorchedBottom","indexId":[2,1,1],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Left_ScorchedCornerRight","path":"GrassJoin/JoinLeft/GrassJoin_Left_ScorchedCornerRight","indexId":[2,1,2],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Left_ScorchedJoinBoth","path":"GrassJoin/JoinLeft/GrassJoin_Left_ScorchedJoinBoth","indexId":[2,1,3],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Left_ScorchedJoinLeft","path":"GrassJoin/JoinLeft/GrassJoin_Left_ScorchedJoinLeft","indexId":[2,1,4],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Left_ScorchedJoinLeft_ScorchedLeft","path":"GrassJoin/JoinLeft/GrassJoin_Left_ScorchedJoinLeft_ScorchedLeft","indexId":[2,1,5],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Left_ScorchedJoinRight","path":"GrassJoin/JoinLeft/GrassJoin_Left_ScorchedJoinRight","indexId":[2,1,6],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Left_ScorchedRight","path":"GrassJoin/JoinLeft/GrassJoin_Left_ScorchedRight","indexId":[2,1,7],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Left_ScorchedRight_ScorchedJoinLeft","path":"GrassJoin/JoinLeft/GrassJoin_Left_ScorchedRight_ScorchedJoinLeft","indexId":[2,1,8],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Left_SideRight","path":"GrassJoin/JoinLeft/GrassJoin_Left_SideRight","indexId":[2,1,9],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Left_SideRight_ScorchedJoinLeft","path":"GrassJoin/JoinLeft/GrassJoin_Left_SideRight_ScorchedJoinLeft","indexId":[2,1,10],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]}]},{"name":"JoinRight","path":"GrassJoin/JoinRight","indexId":[2,2],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[{"name":"GrassJoin_Right","path":"GrassJoin/JoinRight/GrassJoin_Right","indexId":[2,2,0],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Right_ScorchedBottom","path":"GrassJoin/JoinRight/GrassJoin_Right_ScorchedBottom","indexId":[2,2,1],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Right_ScorchedCornerLeft","path":"GrassJoin/JoinRight/GrassJoin_Right_ScorchedCornerLeft","indexId":[2,2,2],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Right_ScorchedJoinBoth","path":"GrassJoin/JoinRight/GrassJoin_Right_ScorchedJoinBoth","indexId":[2,2,3],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Right_ScorchedJoinLeft","path":"GrassJoin/JoinRight/GrassJoin_Right_ScorchedJoinLeft","indexId":[2,2,4],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Right_ScorchedJoinRight","path":"GrassJoin/JoinRight/GrassJoin_Right_ScorchedJoinRight","indexId":[2,2,5],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Right_ScorchedJoinRight_ScorchedLeft","path":"GrassJoin/JoinRight/GrassJoin_Right_ScorchedJoinRight_ScorchedLeft","indexId":[2,2,6],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Right_ScorchedLeft","path":"GrassJoin/JoinRight/GrassJoin_Right_ScorchedLeft","indexId":[2,2,7],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Right_ScorchedLeft_ScorchedJoinRight","path":"GrassJoin/JoinRight/GrassJoin_Right_ScorchedLeft_ScorchedJoinRight","indexId":[2,2,8],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Right_SideLeft","path":"GrassJoin/JoinRight/GrassJoin_Right_SideLeft","indexId":[2,2,9],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]},{"name":"GrassJoin_Right_SideLeft_ScorchedJoinRight","path":"GrassJoin/JoinRight/GrassJoin_Right_SideLeft_ScorchedJoinRight","indexId":[2,2,10],"import":true,"useDefaults":true,"Alignment":"Center","Pivot":{"x":0.5,"y":0.5},"ScaleFactor":"Full","Childs":[]}]}]}]}}'
+  assetBundleName: 
+  assetBundleVariant: 
