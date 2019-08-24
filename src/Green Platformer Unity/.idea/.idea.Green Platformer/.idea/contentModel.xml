@@ -1,34 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\User\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\User\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Green Platformer.1262990093.00" t="ExcludeRecursive" />
-    <e p="C:\Users\User\Documents\Unity\Green Platformer" t="IncludeRecursive">
+    <e p="C:\Users\User\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Green Platformer.468830861.00" t="ExcludeRecursive" />
+    <e p="C:\Users\User\Documents\Unity\Green Platformer\src\Green Platformer Unity" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Assets" t="Include">
-          <e p="Inputs" t="Include">
-            <e p="PlayerMovement.cs" t="Include" />
+        <e p="Dark Monsters - Infinite Monster Builder" t="Include">
+          <e p="EditorPopup" t="Include">
+            <e p="EditorScripts" t="Include">
+              <e p="OpenMoreGames.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scritps" t="Include">
+            <e p="OrderPrefabs.cs" t="Include" />
           </e>
         </e>
         <e p="Inputs" t="Include">
-          <e p="PlayerMovement.cs" t="Include" />
+          <e p="PlayerInputs.cs" t="Include" />
         </e>
         <e p="Knight Files" t="Include">
           <e p="Read Me.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="AppleCollector.cs" t="Include" />
           <e p="CharacterController2D.cs" t="Include" />
+          <e p="PlayerAttackManager.cs" t="Include" />
           <e p="PlayerMovementManager.cs" t="Include" />
+        </e>
+        <e p="UnityExtensions" t="Include">
+          <e p="ScriptableTools" t="Include">
+            <e p="Events" t="Include">
+              <e p="GameEvent.cs" t="Include" />
+              <e p="GameEventListener.cs" t="Include" />
+            </e>
+            <e p="Sets" t="Include">
+              <e p="RuntimeSet.cs" t="Include" />
+              <e p="Thing.cs" t="Include" />
+              <e p="ThingDisabler.cs" t="Include" />
+              <e p="ThingMonitor.cs" t="Include" />
+              <e p="ThingRuntimeSet.cs" t="Include" />
+            </e>
+            <e p="Variables" t="Include">
+              <e p="AnimatorParameterSetter.cs" t="Include" />
+              <e p="AudioParameterSetter.cs" t="Include" />
+              <e p="AudioVolumeSetter.cs" t="Include" />
+              <e p="DamageDealer.cs" t="Include" />
+              <e p="FloatReference.cs" t="Include" />
+              <e p="FloatVariable.cs" t="Include" />
+              <e p="ImageFillSetter.cs" t="Include" />
+              <e p="KeyboardMover.cs" t="Include" />
+              <e p="SimpleUnitHealth.cs" t="Include" />
+              <e p="SliderSetter.cs" t="Include" />
+              <e p="StringVariable.cs" t="Include" />
+              <e p="TextReplacer.cs" t="Include" />
+              <e p="UnitHealth.cs" t="Include" />
+              <e p="UnityEventRaiser.cs" t="Include" />
+              <e p="VariableAudioTrigger.cs" t="Include" />
+            </e>
+          </e>
         </e>
       </e>
       <e p="Green Platformer.sln" t="IncludeFlat" />
-      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>
 </project>
