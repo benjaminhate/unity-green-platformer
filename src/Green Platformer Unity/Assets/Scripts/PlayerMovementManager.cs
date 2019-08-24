@@ -18,12 +18,12 @@ public class PlayerMovementManager : MonoBehaviour
 
     private void OnEnable()
     {
-        inputs.Enable();
+        inputs.Movement.Enable();
     }
 
     private void OnDisable()
     {
-        inputs.Disable();
+        inputs.Movement.Disable();
     }
 
     private void Awake()

@@ -112,6 +112,39 @@ namespace Inputs
                     ""isPartOfComposite"": true
                 },
                 {
+                    ""name"": ""Gamepad"",
+                    ""id"": ""1c62e312-b20d-4206-b7ca-dbe403ef2fde"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": ""StickDeadzone(min=1,max=1)"",
+                    ""groups"": """",
+                    ""action"": ""Horizontal"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""negative"",
+                    ""id"": ""cbf07845-102d-4d8f-9fe6-34daad2bfb7e"",
+                    ""path"": ""<Gamepad>/leftStick/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Horizontal"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""f9dcd030-00c4-41d0-a9c8-ea1838acf4b7"",
+                    ""path"": ""<Gamepad>/leftStick/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Horizontal"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
                     ""name"": """",
                     ""id"": ""9866196b-ffce-45fe-a6dc-8c04e2316e37"",
                     ""path"": ""<Keyboard>/w"",
@@ -126,6 +159,17 @@ namespace Inputs
                     ""name"": """",
                     ""id"": ""3e6b14a4-1c4f-41d7-a0e6-4fa70966875c"",
                     ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5500b2ff-8c73-41dd-b4c6-6044812409d5"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -154,6 +198,55 @@ namespace Inputs
                     ""action"": ""Crouch"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""dac9943f-8928-41b7-a3f4-7dc9364fb28a"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Crouch"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""Attack"",
+            ""id"": ""0f65c564-3007-4d1c-b881-4b7ae455f2ee"",
+            ""actions"": [
+                {
+                    ""name"": ""Swipe"",
+                    ""type"": ""Button"",
+                    ""id"": ""c1ad33ed-4039-47a8-b3b2-266b1f8b64f3"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""7e7d81cb-5429-45d4-8ea1-b0cd2967c8ed"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Swipe"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e1747d31-6bdb-4d58-b8ac-60f213701628"",
+                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Swipe"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -165,6 +258,9 @@ namespace Inputs
             m_Movement_Horizontal = m_Movement.GetAction("Horizontal");
             m_Movement_Jump = m_Movement.GetAction("Jump");
             m_Movement_Crouch = m_Movement.GetAction("Crouch");
+            // Attack
+            m_Attack = asset.GetActionMap("Attack");
+            m_Attack_Swipe = m_Attack.GetAction("Swipe");
         }
 
         ~PlayerInputs()
@@ -259,11 +355,48 @@ namespace Inputs
             }
         }
         public MovementActions @Movement => new MovementActions(this);
+
+        // Attack
+        private readonly InputActionMap m_Attack;
+        private IAttackActions m_AttackActionsCallbackInterface;
+        private readonly InputAction m_Attack_Swipe;
+        public struct AttackActions
+        {
+            private PlayerInputs m_Wrapper;
+            public AttackActions(PlayerInputs wrapper) { m_Wrapper = wrapper; }
+            public InputAction @Swipe => m_Wrapper.m_Attack_Swipe;
+            public InputActionMap Get() { return m_Wrapper.m_Attack; }
+            public void Enable() { Get().Enable(); }
+            public void Disable() { Get().Disable(); }
+            public bool enabled => Get().enabled;
+            public static implicit operator InputActionMap(AttackActions set) { return set.Get(); }
+            public void SetCallbacks(IAttackActions instance)
+            {
+                if (m_Wrapper.m_AttackActionsCallbackInterface != null)
+                {
+                    Swipe.started -= m_Wrapper.m_AttackActionsCallbackInterface.OnSwipe;
+                    Swipe.performed -= m_Wrapper.m_AttackActionsCallbackInterface.OnSwipe;
+                    Swipe.canceled -= m_Wrapper.m_AttackActionsCallbackInterface.OnSwipe;
+                }
+                m_Wrapper.m_AttackActionsCallbackInterface = instance;
+                if (instance != null)
+                {
+                    Swipe.started += instance.OnSwipe;
+                    Swipe.performed += instance.OnSwipe;
+                    Swipe.canceled += instance.OnSwipe;
+                }
+            }
+        }
+        public AttackActions @Attack => new AttackActions(this);
         public interface IMovementActions
         {
             void OnHorizontal(InputAction.CallbackContext context);
             void OnJump(InputAction.CallbackContext context);
             void OnCrouch(InputAction.CallbackContext context);
+        }
+        public interface IAttackActions
+        {
+            void OnSwipe(InputAction.CallbackContext context);
         }
     }
 }
