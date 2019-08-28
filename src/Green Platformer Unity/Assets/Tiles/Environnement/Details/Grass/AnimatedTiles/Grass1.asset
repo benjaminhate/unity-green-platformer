@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Grass1
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 21300000, guid: 1e6e17f3317bc274bbf49745cf050331, type: 3}
+  - {fileID: 21300000, guid: eabd25fe3da177040a4c1740f3bc982d, type: 3}
+  - {fileID: 21300000, guid: 99f2680f5b5673344a8c01e46a081a77, type: 3}
+  - {fileID: 21300000, guid: 12e900f5aa710bd419570fa33db7c79c, type: 3}
+  - {fileID: 21300000, guid: 2f2e3bc0128f0b742aae4a77f030802c, type: 3}
+  - {fileID: 21300000, guid: be20ec21d57408543b87ea150ed3d8ef, type: 3}
+  - {fileID: 21300000, guid: ba5d629c273723b4899b78d99acac7b0, type: 3}
+  - {fileID: 21300000, guid: d80e7ac3d7c1b3345a47b63ba79c91db, type: 3}
+  - {fileID: 21300000, guid: a4d72dfc7b539dc4181049811f21b160, type: 3}
+  - {fileID: 21300000, guid: 7e2eb2768f8210744bc7181e0f569fdd, type: 3}
+  - {fileID: 21300000, guid: cf60b3e96340994438220c68601651c4, type: 3}
+  - {fileID: 21300000, guid: c1ff6fd40b30ccd4f814befc96d84727, type: 3}
+  - {fileID: 21300000, guid: d6d55801f51a8eb4b92f26c3fe849f29, type: 3}
+  - {fileID: 21300000, guid: 4fd1b0ce0ee603b4fb983a2378ce09ca, type: 3}
+  - {fileID: 21300000, guid: 13a1af06cb44ff64199555d0c8f147fd, type: 3}
+  - {fileID: 21300000, guid: 178ad90586af4114399422f8338b9093, type: 3}
+  - {fileID: 21300000, guid: e0588e87cd36ad34a8aaac509dbbc89a, type: 3}
+  - {fileID: 21300000, guid: 2c331c313bfc4f7489330cd79602e2a2, type: 3}
+  - {fileID: 21300000, guid: 5783885f0edaadf47b29eedaadadf48f, type: 3}
+  - {fileID: 21300000, guid: d80a611a5f6fd1e47844a3308872c852, type: 3}
+  - {fileID: 21300000, guid: 297672a800b6e6843830d41414dc5880, type: 3}
+  - {fileID: 21300000, guid: 4dc50cefba4fbbe48bf5d009838b1b3f, type: 3}
+  - {fileID: 21300000, guid: 55fbad100fee5ed4196ea21336e172b2, type: 3}
+  - {fileID: 21300000, guid: 817431af4dc1c134aa62c4ce99518316, type: 3}
+  - {fileID: 21300000, guid: 5dd251597bd219849a9ea14ec46644ef, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_TileColliderType: 0
