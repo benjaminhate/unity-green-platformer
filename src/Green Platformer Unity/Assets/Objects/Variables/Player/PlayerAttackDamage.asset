@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PlayerAttackDamage
   m_EditorClassIdentifier: 
   DeveloperDescription: The damage that the player deals
-  Value: 0
+  Value: 1

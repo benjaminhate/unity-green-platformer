@@ -56,4 +56,12 @@ public class PlayerAttackManager : MonoBehaviour
         _attacking = false;
         animator.SetBool(SwipeAnimator, false);
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            other.GetComponent<EnemyManager>().Damage(attackDamage.Value);
+        }
+    }
 }
