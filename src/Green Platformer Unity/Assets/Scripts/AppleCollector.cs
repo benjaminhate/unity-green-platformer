@@ -10,6 +10,7 @@ public class AppleCollector : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log($"Apple other id : {other.GetInstanceID()}");
             playerAppleScore.Value += appleScore;
             Destroy(gameObject);
         }

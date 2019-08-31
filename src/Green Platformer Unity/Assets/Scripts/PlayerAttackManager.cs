@@ -1,5 +1,6 @@
 ﻿using System;
 using Inputs;
+using Interfaces;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityExtensions.ScriptableTools.Variables;
@@ -14,7 +15,7 @@ public class PlayerAttackManager : MonoBehaviour
     private float _lastTimeAttack;
     private bool _swipe;
     private bool _attacking;
-    private static readonly int SwipeAnimator = Animator.StringToHash("IsSwiping");
+    private static readonly int AttackAnimator = Animator.StringToHash("IsAttacking");
 
     private void OnEnable()
     {
@@ -47,21 +48,21 @@ public class PlayerAttackManager : MonoBehaviour
             _lastTimeAttack = Time.time;
             _swipe = false;
             _attacking = true;
-            animator.SetBool(SwipeAnimator, true);
+            animator.SetBool(AttackAnimator, true);
         }
     }
 
     public void OnAttackAnimationEnd()
     {
         _attacking = false;
-        animator.SetBool(SwipeAnimator, false);
+        animator.SetBool(AttackAnimator, false);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Enemy"))
         {
-            other.GetComponent<EnemyManager>().Damage(attackDamage.Value);
+            other.GetComponent<IDamageable>().Damage(attackDamage.Value);
         }
     }
 }
